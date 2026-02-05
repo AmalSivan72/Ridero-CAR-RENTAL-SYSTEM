@@ -1,6 +1,4 @@
-# 🚀 Faster Bike Taxi Application System
-
-A full-stack bike taxi and car rental platform designed for efficient bookings, secure payments, and admin/agent management. Built using **Angular** (frontend) and **Spring Boot** (backend) with **JWT Authentication** and **role-based access control**.
+Car rental platform designed for efficient bookings, secure payments, and admin/agent management. Built using **Angular** (frontend) and **Spring Boot** (backend) with **JWT Authentication** and **role-based access control**.
 
 ---
 
@@ -56,8 +54,6 @@ A full-stack bike taxi and car rental platform designed for efficient bookings, 
 
 | Endpoint                              | Method | Description                            |
 |---------------------------------------|--------|----------------------------------------|
-| `/addBiketaxi`                        | POST   | Register a bike                        |
-| `/getBiketaxi`                        | GET    | Fetch all registered bikes             |
 | `/createBooking`                      | POST   | Create a new booking                   |
 | `/makePayment`                        | POST   | Process booking payment                |
 | `/createWallet/{userId}`             | POST   | Create a wallet                        |
